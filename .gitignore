@@ -1,5 +1,5 @@
 # Scripts locales de publicación (no forman parte de la entrega)
-publish.ps1
+publish*.ps1
 
 # Artefactos del sistema
 Thumbs.db

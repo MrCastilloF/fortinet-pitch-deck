@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://mrcastillof.github.io/Soluciones_Fortinet_Presentacion/"><img src="https://img.shields.io/badge/🌐%20Demo%20en%20vivo-Abrir%20presentación-EE2737?style=for-the-badge&logo=githubpages&logoColor=white" alt="Demo en vivo"></a>
+  <a href="https://mrcastillof.github.io/fortinet-pitch-deck/"><img src="https://img.shields.io/badge/🌐%20Demo%20en%20vivo-Abrir%20presentación-EE2737?style=for-the-badge&logo=githubpages&logoColor=white" alt="Demo en vivo"></a>
   <img src="https://img.shields.io/badge/📁%20Formato-Single--file%20HTML-0A0E17?style=for-the-badge&logo=html5&logoColor=E34F26" alt="Single file">
   <img src="https://img.shields.io/badge/⚙️%20Build%20tools-Ninguno-101624?style=for-the-badge&logo=npm&logoColor=CB3837" alt="Sin build tools">
   <img src="https://img.shields.io/badge/🧩%20Soluciones-6%20de%20alto%20valor-00A9A5?style=for-the-badge" alt="6 soluciones">
@@ -245,14 +245,14 @@ Cada tarjeta responde **4 preguntas** con contenido estrictamente derivado de la
 
 | 🌐 Producción | 📦 Repositorio |
 |:--|:--|
-| [**mrcastillof.github.io/Soluciones_Fortinet_Presentacion**](https://mrcastillof.github.io/Soluciones_Fortinet_Presentacion/) | [**MrCastilloF/Soluciones_Fortinet_Presentacion**](https://github.com/MrCastilloF/Soluciones_Fortinet_Presentacion) |
+| [**mrcastillof.github.io/fortinet-pitch-deck**](https://mrcastillof.github.io/fortinet-pitch-deck/) | [**MrCastilloF/fortinet-pitch-deck**](https://github.com/MrCastilloF/fortinet-pitch-deck) |
 
 <details>
 <summary>💻 <b>Uso local</b> (clic para desplegar)</summary>
 
 ```bash
-git clone https://github.com/MrCastilloF/Soluciones_Fortinet_Presentacion.git
-cd Soluciones_Fortinet_Presentacion
+git clone https://github.com/MrCastilloF/fortinet-pitch-deck.git
+cd fortinet-pitch-deck
 start index.html          # o doble clic en index.html
 ```
 </details>
@@ -277,7 +277,7 @@ git push origin master
 | Frontend | HTML5 + CSS3 vanilla + JavaScript ES6 |
 | Dependencias | **Cero** — sin framework, sin CDN, funciona offline |
 | Build tools | **Ninguno** — sin Node.js, Webpack ni compilación |
-| Publicación | `publish.ps1` local, excluido del repo vía `.gitignore` |
+| Publicación | `publish*.ps1` local, excluido del repo vía `.gitignore` |
 </details>
 
 ---
@@ -285,13 +285,13 @@ git push origin master
 ## 📁 Estructura del repositorio
 
 ```
-Soluciones_Fortinet_Presentacion/
+fortinet-pitch-deck/
 ├── 🎯 index.html                    # SPA completa (single-file, autocontenido)
 ├── 📖 README.md                     # Este archivo
 ├── 🖼️ assets/banner.svg             # Banner hero vectorial
 ├── 📋 Compromiso Presentacion.md    # Especificación del compromiso
 ├── 📄 Soluciones Fortinet.docx      # Documento fuente de referencia
-└── 🚫 .gitignore                    # Excluye publish.ps1
+└── 🚫 .gitignore                    # Excluye scripts publish*.ps1
 ```
 
 ---
