@@ -11,11 +11,11 @@
 
 <p align="center">
   <a href="https://mrcastillof.github.io/fortinet-pitch-deck/"><img src="https://img.shields.io/badge/🌐%20Demo%20en%20vivo-Abrir%20presentación-EE2737?style=for-the-badge&logo=githubpages&logoColor=white" alt="Demo en vivo"></a>
-  <img src="https://img.shields.io/badge/📁%20Formato-Single--file%20HTML-0A0E17?style=for-the-badge&logo=html5&logoColor=E34F26" alt="Single file">
+  <img src="https://img.shields.io/badge/📁%20Formato-Single--file%20HTML-1F2937?style=for-the-badge&logo=html5&logoColor=E34F26" alt="Single file">
   <img src="https://img.shields.io/badge/⚙️%20Build%20tools-Ninguno-101624?style=for-the-badge&logo=npm&logoColor=CB3837" alt="Sin build tools">
   <img src="https://img.shields.io/badge/🧩%20Soluciones-6%20de%20alto%20valor-00A9A5?style=for-the-badge" alt="6 soluciones">
-  <img src="https://img.shields.io/badge/🎨%20Diseño-Dark%20Mode%20Premium-1A2338?style=for-the-badge" alt="Dark mode">
-  <img src="https://img.shields.io/badge/🚫%20Alucinaciones-Cero-2CE5A5?style=for-the-badge" alt="Cero alucinaciones">
+  <img src="https://img.shields.io/badge/🎨%20Diseño-Gris%20claro%20premium-1F2937?style=for-the-badge" alt="Tema gris claro">
+  <img src="https://img.shields.io/badge/🚫%20Alucinaciones-Cero-0E8F66?style=for-the-badge" alt="Cero alucinaciones">
 </p>
 
 ---
@@ -120,9 +120,9 @@
 
 ```mermaid
 flowchart LR
-    classDef infra fill:#2A1216,stroke:#EE2737,color:#FFD9DC
-    classDef users fill:#0B2730,stroke:#00E5FF,color:#C9F8FF
-    classDef ops fill:#0E2A22,stroke:#2CE5A5,color:#CFFcef
+    classDef infra fill:#FDECEE,stroke:#EE2737,color:#7A1118
+    classDef users fill:#E6F4F8,stroke:#0B7FA0,color:#0B3B4A
+    classDef ops fill:#E7F6F0,stroke:#0E8F66,color:#0B3B32
 
     subgraph FABRIC["🛡️ FORTINET SECURITY FABRIC — visibilidad compartida y protección coordinada"]
         direction TB
@@ -227,12 +227,12 @@ Cada tarjeta responde **4 preguntas** con contenido estrictamente derivado de la
 
 <p align="center">
   <img src="https://img.shields.io/badge/🔴%20Rojo%20Fortinet-%23EE2737?style=flat-square&color=EE2737" alt="#EE2737">
-  <img src="https://img.shields.io/badge/🔵%20Cian%20neón-%2300E5FF?style=flat-square&color=00E5FF" alt="#00E5FF">
-  <img src="https://img.shields.io/badge/🟢%20Esmeralda-%232CE5A5?style=flat-square&color=2CE5A5" alt="#2CE5A5">
-  <img src="https://img.shields.io/badge/⚫%20Fondo%20dark-%230A0E17?style=flat-square&color=101624" alt="#0A0E17">
+  <img src="https://img.shields.io/badge/🔵%20Cian-%230B7FA0?style=flat-square&color=0B7FA0" alt="#0B7FA0">
+  <img src="https://img.shields.io/badge/🟢%20Esmeralda-%230E8F66?style=flat-square&color=0E8F66" alt="#0E8F66">
+  <img src="https://img.shields.io/badge/⚪%20Fondo%20gris%20claro-%23F1F4F8?style=flat-square&color=E9EEF4" alt="#F1F4F8">
 </p>
 
-- **Estética:** Dark Mode premium con glow radial y grid sutil
+- **Estética:** tema claro sobre gris `#F1F4F8` con tarjetas blancas, bordes suaves y sombras ligeras
 - **Tipografía:** San Francisco / Inter / Roboto (font-stack nativo, sin descargas)
 - **Responsive:** grilla autoajustable `auto-fit / minmax` + media queries
 

@@ -7,3 +7,13 @@ Thumbs.db
 
 # Previews locales de assets
 assets/_preview.png
+preview_slide.png
+preview_*.png
+
+# Entorno local de generación de documentos
+.venv/
+wheels/
+__pycache__/
+pip-*/
+*.pptx
+*.pdf
